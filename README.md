@@ -27,7 +27,7 @@
 
 ### **3. Assign Security**
 
-*   Give users the **FeatureManagementHistoryFormView** privilege so they can open the form.
+*   Give users the **FeatureManagementHistoryFormView** privilege so they can open the form only if not admin
 
 ***
 
@@ -35,7 +35,7 @@
 
 ### **Open the Form**
 
-*   Navigate to **Feature Management History** in the menu.
+*   Navigate to **Feature Management History** fom system administration --> In Inquiries 
 *   The form will:
     *   Load feature metadata automatically
     *   Insert records into the history table
